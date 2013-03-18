@@ -351,7 +351,7 @@
 	    $message .= LIGHTCYAN."--dbname".LIGHTPURPLE." - The name of the database\n";
 	    $message .= LIGHTCYAN."--search".LIGHTPURPLE." - The literal string or regex to search for\n";
 	    $message .= LIGHTCYAN."--port".LIGHTPURPLE." - (OPTIONAL) If your DB doesn't listen on 3306 specify the port here\n";
-	    $message .= LIGHTCYAN."--no-colors".LIGHTPURPLE." - (OPTIONAL) Turn off all colorization of output\n";
+	    $message .= LIGHTCYAN."--no-color".LIGHTPURPLE." - (OPTIONAL) Turn off all colorization of output\n";
 	    $message .= "\n";
 
 	    if ($customMessage != "") {
